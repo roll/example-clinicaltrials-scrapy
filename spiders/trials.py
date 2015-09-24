@@ -24,5 +24,15 @@ class Trials(CrawlSpider):
     ]
 
     def parse_item(self, response):
+
         item = Trial()
+
+        # Id
+        path = '/clinical_study/id_info/nct_id/text()'
+        item['nct_id'] = response.xpath(path).extract_first()
+
+        # Url
+        path = '/clinical_study/required_header/url/text()'
+        item['url'] = response.xpath(path).extract_first()
+
         return item

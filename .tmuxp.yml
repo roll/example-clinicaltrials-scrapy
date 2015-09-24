@@ -1,0 +1,8 @@
+session_name: clinicaltrials-scraper
+windows:
+  - window_name: bash
+    panes:
+      - source venv/bin/activate
+  - window_name: vim
+    panes:
+      - vim

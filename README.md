@@ -1,6 +1,6 @@
-# Clinicaltrials
+# Clinicaltrials Scraper
 
-A clinicaltrials.gov scraper.
+A clinicaltrials.gov scraper boilerplate.
 
 ## Prerequisite
 
