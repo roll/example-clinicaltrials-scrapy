@@ -1,4 +1,4 @@
-# Clinicaltrials Scraper Boilerplate
+# Scraper Boilerplate for clinicaltrials.gov
 
 A clinicaltrials.gov scraper boilerplate based on the Scrapy framework.
 
