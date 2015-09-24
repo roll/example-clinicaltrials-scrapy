@@ -1,0 +1,30 @@
+# Coverage
+.coverage
+coverage.xml
+
+# Nodejs
+node_modules/
+npm-debug.log
+
+# Nose
+nosetests.xml
+
+# Pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Project
+tmp/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Vim
+.ropeproject/
+
+# Virtualenv
+venv/
+venvs/
+virtualenv/
+virtualenvs/
